@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Images/Logo/logo.png">
+    <title>ShophoriaX - Best Online Shopping Store | Fashion, Electronics, Home & Beauty Products</title>
+    <meta name="description"
+        content="ShophoriaX is the #1 online shopping store for exclusive deals on fashion, electronics, beauty products, home essentials and more. Find premium brands at amazing prices with fast shipping. Shop now!">
+    <meta name="keywords"
+        content="ShophoriaX, shophorix, shophoria, online shopping, shophoriax.store, fashion deals, electronics, home products, beauty products, discount offers, online store, best deals, shopping website, gadgets, clothing, accessories, fitness equipment, home decor, online marketplace, ecommerce store">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="ShophoriaX - Best Online Shopping Store | Fashion, Electronics & More">
+    <meta property="og:description" content="Find exclusive deals on fashion, electronics, home & beauty products at ShophoriaX - Your ultimate online shopping destination with premium brands and fast shipping">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://shophoriax.store">
+    <meta property="og:image" content="https://shophoriax.store/Images/Logo/logo.png">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="400">
+    <meta property="og:image:alt" content="ShophoriaX E-Commerce Store">
+    <meta property="og:site_name" content="ShophoriaX">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ShophoriaX - Best Online Shopping Store">
+    <meta name="twitter:description" content="Find exclusive deals on fashion, electronics, home & beauty products at ShophoriaX">
+    <meta name="twitter:image" content="https://shophoriax.store/Images/Logo/logo.png">
+    <meta name="theme-color" content="#1e3c72">
+    <link rel="canonical" href="https://shophoriax.store">
+    <meta name="author" content="ShophoriaX">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Store",
+      "name": "ShophoriaX",
+      "alternateName": ["Shophoria", "ShophoriaX Store", "ShophoriaX Online Store"],
+      "url": "https://shophoriax.store",
+      "logo": "https://shophoriax.store/Images/Logo/logo.png",
+      "image": "https://shophoriax.store/Images/Logo/logo.png",
+      "description": "ShophoriaX offers exclusive deals on fashion, electronics, beauty products, home essentials and more. Premium brands at amazing prices with fast shipping.",
+      "telephone": "+1-555-555-5555",
+      "priceRange": "$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "US"
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://shophoriax.store/?search={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "sameAs": [
+        "https://facebook.com/shophoriax",
+        "https://instagram.com/shophoriax",
+        "https://twitter.com/shophoriax"
+      ]
+    }
+    </script>
+
+
+</head>
+
+<body>
+    <header>
+        <h1>ShophoriaX</h1>
+    </header>
+
+    <div class="hero">
+        <h2>Your Ultimate Shopping Destination</h2>
+        <p>Discover exclusive deals on fashion, electronics, beauty products and more!</p>
+    </div>
+
+    <div class="category-nav">
+        <a href="#electronics">Electronics</a>
+        <a href="#fashion">Fashion</a>
+        <a href="#beauty">Beauty & Personal Care</a>
+        <a href="#home">Home & Kitchen</a>
+        <a href="#sports">Sports & Fitness</a>
+        <a href="#toys">Toys & Games</a>
+        <a href="#pets">Pet Supplies</a>
+        <a href="#books">Books & Digital</a>
+        <a href="#automotive">Automotive</a>
+        <a href="#garden">Garden & Tools</a>
+    </div>
+
+    <div class="search-bar">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for products..." aria-label="Search products">
+            <button onclick="searchProducts()">Search</button>
+        </div>
+    </div>
+    <div class="no-results" id="noResults">No exact matches found. Showing similar items...</div>
+
+    <div class="container">
+        <!-- Mixed Products Display for Homepage -->
+        <section id="featured-products" class="featured-products">
+            <div class="products-grid" id="mixed-products-grid">
+                <!-- Products will be dynamically added here by JavaScript -->
+            </div>
+            <div class="pagination-info" id="mixed-pagination-info"></div>
+            <div class="pagination-container" id="mixed-pagination"></div>
+        </section>
+
+        <!-- Category sections (hidden by default, shown when category is selected) -->
+        <section id="electronics" class="category-section">
+            <h2 class="category-title">Electronics</h2>
+            <div class="products-grid">
+                <div class="product">
+                    <img src="Images\Electronics\tab.png" alt="Samsung Tab">
+                    <div class="product-info">
+                        <h3>Samsung Galaxy Tab A9+ Tablet 11</h3>
+                        <p> 64GB Android Tablet, Big Screen, Quad Speakers, Upgraded Chipset, Multi Window Display,
+                            Slim, Light, Durable Design, US Version, 2024, Graphite </p>
+
+                        <p class="price"><br>$148.41</p>
+                        <a href="https://amzn.to/4ihTH6U" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Electronics/headphone.png" alt="Wireless Headphones">
+                    <div class="product-info">
+                        <h3>BERIBES Bluetooth Headphones Over Ear</h3>
+                        <p>65H Playtime and 6 EQ Music Modes Wireless Headphones with Microphone, HiFi Stereo Foldable
+                            Lightweight Headset, Deep Bass for Home Office Cellphone PC Ect.</p>
+                        <p class="price">$19.99</p>
+                        <a href="https://amzn.to/4hCHSXH" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Electronics/laptop.png" alt="Laptop">
+                    <div class="product-info">
+                        <h3>HP 14 Laptop, Intel Celeron N4020</h3>
+                        <p>4 GB RAM, 64 GB Storage, 14-inch Micro-edge HD Display, Windows 11 Home, Thin & Portable, 4K
+                            Graphics, One Year of Microsoft 365 (14-dq0040nr, Snowflake White)</p>
+                        <p class="price">$148.99</p>
+                        <a href="https://amzn.to/4iUH2GU" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Electronics/speaker.png" alt="Smart Speaker">
+                    <div class="product-info">
+                        <h3>Bluetooth Speaker with HD Sound</h3>
+                        <p>Portable Wireless, IPX5 Waterproof, Up to 20H Playtime, TWS Pairing, BT5.3, for
+                            Home/Party/Outdoor/Beach, Electronic Gadgets, Birthday Gift (Black)</p>
+                        <p class="price">$29.59</p>
+                        <a href="https://amzn.to/3XUL9KT" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Electronics/projector.png" alt="Projector">
+                    <div class="product-info">
+                        <h3>EAZZE D1 Smart Projector with WiFi and Bluetooth</h3>
+                        <p>Netflix-Officially-Licensed, Auto Focus & Keystone, DoIby Audio, Zoom, Native 1080P Movie,
+                            Portable Outdoor Mini Projector, White</p>
+                        <p class="price"><br>$114.61</p>
+                        <a href="https://amzn.to/4idjGwr" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Electronics/drone camera.png" alt="Drone">
+                    <div class="product-info">
+                        <h3>4K Camera Drone for Kids 8-12 & Adults</h3>
+                        <p>Beginner-Friendly Mini Drone with Emergency Stop, 360° Flips, Carrying Case & 2 Batteries,
+                            Headless Mode,RC Quadcopter Toys for Boys Girls Age 6-14</p>
+                        <p class="price"><br>$49.99</p>
+                        <a href="https://amzn.to/4hNExVL" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Electronics/wireless charger.png" alt="Drone">
+                    <div class="product-info">
+                        <h3>Belkin MagSafe-Compatible Charger</h3>
+                        <p> 3-in-1 Wireless Charging Station, Qi2-Certified 15W Wireless Charger for Apple iPhone 16
+                            Series, Apple Watch, AirPods w/Non-Slip Base, 40W Charger Included - White</p>
+                        <p class="price">$90.06</p>
+                        <a href="https://amzn.to/4bB9AD1" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Electronics/earburds.png" alt="Drone">
+                    <div class="product-info">
+                        <h3>Wireless Earbuds</h3>
+                        <p> Bluetooth 5.4 Headphones HiFi Stereo, in Ear Earphones with 4 ENC Noise Cancelling Mics, 40H
+                            Playback Ear Buds with Mini Case, IP7 Waterproof Headset with LED Display, USB C Charging
+                        </p>
+                        <p class="price">$19.99</p>
+                        <a href="https://amzn.to/3FB0wSu" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination-info" id="electronics-pagination-info"></div>
+            <div class="pagination-container" id="electronics-pagination"></div>
+        </section>
+
+        <section id="beauty" class="category-section">
+            <h2 class="category-title">Beauty & Personal Care</h2>
+            <div class="products-grid">
+                <div class="product">
+                    <img src="Images/Beauty/crest3D.png" alt="Skincare Set">
+                    <div class="product-info">
+                        <h3>Crest 3D Whitestrips Professional Effects</h3>
+                        <p>Whitestrip 3D White, Teeth Whitening Strip Kit, 44 Strips (22 Count Pack), Crest Teeth
+                            Whitening Strips, Teeth Whitening Kit </p>
+                        <p class="price">$43.99</p>
+                        <a href="https://amzn.to/3FFHEC3" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Beauty/makup kit.png" alt="Makeup Kit">
+                    <div class="product-info">
+                        <h3>OMANIAC Makeup Brush Set Professional</h3>
+                        <p>12 Pearlescent Wood Handle Makeup Brushes, Premium Cruelty-Free Synthetic Fiber Hair, Travel
+                            Make up Brushes Set with Case (Black)</p>
+                        <p class="price">$29.99</p>
+                        <a href="https://amzn.to/3FOAYRW" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Beauty/haircare.png" alt="Hair Care Set">
+                    <div class="product-info">
+                        <h3>Nutrafol Shampoo</h3>
+                        <p>Cleanse and Hydrate Hair and Scalp, Improves Hair Volume, Strength and Texture,
+                            Physician-formulated for Thinning Hair, Color Safe, Sulfate Free</p>
+                        <p class="price"><br>$44.00</p>
+                        <a href="https://amzn.to/41YAm3F" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Beauty/perfume.png" alt="Perfume">
+                    <div class="product-info">
+                        <h3>Lattafa Perfumes Asad for Unisex Eau de Parfum Spray, 3.4 Ounce</h3>
+                        <p>Exclusive fragrance collection</p>
+                        <p class="price"><br>$23.00</p>
+                        <a href="https://amzn.to/4c5a2cL" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Beauty/facemask.png" alt="Face Mask Set">
+                    <div class="product-info">
+                        <h3>BIODANCE Bio-Collagen Real Deep Mask</h3>
+                        <p>Hydrating Overnight Hydrogel Mask, Pore Minimizing, Elasticity Improvement, 34g x4ea</p>
+                        <p class="price"><br><br>$19.59</p>
+                        <a href="https://amzn.to/4hgxbtX" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Beauty/nailkit.png" alt="Nail Care">
+                    <div class="product-info">
+                        <h3>Beurer MP84 Professional Manicure & Pedicure Nail Drill Kit</h3>
+                        <p>14-Piece Cordless Electric Nail File with 10 Attachments, LED Light, Adjustable Speed,
+                            Charging Storage Case</p>
+                        <p class="price">$79.99</p>
+                        <a href="https://amzn.to/4kEnoRm" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Beauty/scrub.png" alt="Spa Set">
+                    <div class="product-info">
+                        <h3>Tree Hut Shea Sugar Scrub Coco Colada</h3>
+                        <p>18 oz, Ultra Hydrating and Exfoliating Scrub for Nourishing Essential Body Care</p>
+                        <p class="price"><br><br>$29.59</p>
+                        <a href="https://amzn.to/4c2mN7X" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Beauty/oil.png" alt="Essential Oils">
+                    <div class="product-info">
+                        <h3>UpNature Beauty Essential Oil Blend Roll On</h3>
+                        <p>100% Organic Castor Oil & Frankincense for Face Under Eye Roller Ball Rollerball</p>
+                        <p class="price"><br><br>$14.98</p>
+                        <a href="https://amzn.to/41zGQ93" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination-info" id="beauty-pagination-info"></div>
+            <div class="pagination-container" id="beauty-pagination"></div>
+        </section>
+
+        <section id="home" class="category-section">
+            <h2 class="category-title">Home & Kitchen</h2>
+            <div class="products-grid">
+                <div class="product">
+                    <img src="Images/Home&Kitchen/tcl.png" alt="TCL 4,500 Sq">
+                    <div class="product-info">
+                        <h3>TCL 4,500 Sq. Ft. Smart Dehumidifier</h3>
+                        <p>Energy Star Most Efficient 2024, 50 Pints Per Day, Ideal for Basements, Rooms, and Other
+                            Living Spaces, Compatible with Alexa/Google Assistant – H50D44W</p>
+                        <p class="price">$149.99</p>
+                        <a href="https://amzn.to/4ihmj0d" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Home&Kitchen/cisly.png" alt="Cisily Sponge Holder for Kitchen Sink">
+                    <div class="product-info">
+                        <h3>Cisily Sponge Holder for Kitchen Sink</h3>
+                        <p>Sink Caddy with High Brush Holder, Kitchen Sink Organizer Countertop Rustproof 304 Stainless
+                            Steel , Soap Dispenser...</p>
+                        <p class="price">$17.99</p>
+                        <a href="https://amzn.to/4hjjcU8" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Home&Kitchen/mixing bowl.png" alt="Mixing Bowls">
+                    <div class="product-info">
+                        <h3>Mixing Bowls with Airtight Lids Set</h3>
+                        <p>26PCS Stainless Steel Khaki Bowls with Grater Attachments, Non-Slip Bottoms & Kitchen Gadgets
+                            Set, Size 7, 4, 2.5, 2.0,1.5, 1QT, Great for Mixing & Serving</p>
+                        <p class="price">$37.98</p>
+                        <a href="https://amzn.to/4iFtRtj" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Home&Kitchen/craus.png" alt="KRAUS Kore">
+                    <div class="product-info">
+                        <h3>KRAUS Kore 32-Inch Undermountr</h3>
+                        <p>Workstation 16 Gauge Single Bowl Stainless Steel Kitchen Sink with Accessories, KWU110-32</p>
+                        <p class="price">$331.99</p>
+                        <a href="https://amzn.to/4iHhInU" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Home&Kitchen/bella.png" alt="bella 21 Piece Kitchen Set">
+                    <div class="product-info">
+                        <h3>bella 21 Piece Kitchen Set with EverGood™ Ceramic Nonstick Coating​</h3>
+                        <p>Dishwasher & Oven Safe, All Stovetops Compatible, Tempered Glass Lids & Cool...</p>
+                        <p class="price">$62.99</p>
+                        <a href="https://amzn.to/41zb7EW" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Home&Kitchen/kitchen mats.png" alt="StepRite Kitchen Mats">
+                    <div class="product-info">
+                        <h3>StepRite Kitchen Mats</h3>
+                        <p>2PCS Kitchen Rugs, Cushioned Anti Fatigue Kitchen Mats for Floor, Non-Slip Standing Desk Mat,
+                            Waterproof Kitchen Rug Set for Kitchen, Floor, Office,17.3"×30"+17.3"×47",Black</p>
+                        <p class="price">$24.99</p>
+                        <a href="https://amzn.to/4iyQjVz" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Home&Kitchen/chair.png" alt="Office Chair">
+                    <div class="product-info">
+                        <h3>Marsail Ergonomic Office Chair</h3>
+                        <p>Mesh Computer Desk Chair with Adjustable Lumbar Support, 2D Headrest & Up and Dowm Armrest,
+                            Ergonomic Gaming Chair for Home Office</p>
+                        <p class="price">$128.69</p>
+                        <a href="https://amzn.to/41I4dgR" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Home&Kitchen/lamp.png" alt="Storage Set">
+                    <div class="product-info">
+                        <h3>GODONLIF Candle Warmer Lamp with Timer Dimmable</h3>
+                        <p>Adjustable Height, House Warming Gifts New Home Room Decor, Birthday Gifts for Women Mom, Wax
+                            Warmer Lamp...</p>
+                        <p class="price">$24.99</p>
+                        <a href="https://amzn.to/4kUfgML" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination-info" id="home-pagination-info"></div>
+            <div class="pagination-container" id="home-pagination"></div>
+        </section>
+
+        <section id="sports" class="category-section">
+            <h2 class="category-title">Sports & Fitness</h2>
+            <div class="products-grid">
+                <div class="product">
+                    <img src="Images/Sport&Fitness/newan.png" alt="Fitness Equipment">
+                    <div class="product-info">
+                        <h3>Newan 40"-48" Silent Mini Trampoline</h3>
+                        <p>Trampoline Fitness Trampoline Bungee Rebounder Jumping Cardio Trainer Workout for Adults-Max
+                            Limit 330lbs</p>
+                        <p class="price">$86.99</p>
+                        <a href="https://amzn.to/4iiMDHg" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Sport&Fitness/watch.png" alt="Smart Watch">
+                    <div class="product-info">
+                        <h3>Smart Watch(Answer/Make Calls)</h3>
+                        <p>1.91" Smartwatches for Men Women, Fitness Tracker with 110+ Sport Modes, IP68 Waterproof,
+                            Heart Rate/Sleep/Spo2 Monitor, Pedometer, Activity Tracker for Android iOS</p>
+                        <p class="price">$29.99</p>
+                        <a href="https://amzn.to/4igpCoj" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Sport&Fitness/bands.png" alt="Resistance Bands">
+                    <div class="product-info">
+                        <h3>Resistance Bands</h3>
+                        <p> Pull Up Assist Bands - Workout Bands, Eexercise Bands, Long Resistance Bands Set for Working
+                            Out, Fitness, Training, Physical Therapy for Men Women</p>
+                        <p class="price">$26.45</p>
+                        <a href="https://amzn.to/41EhjeW" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Sport&Fitness/bag.png" alt="Gym Bag">
+                    <div class="product-info">
+                        <h3>Tolaccea Gym Bag for Men Women</h3>
+                        <p>Large Sport Duffel Bag with Shoe Compartment Wet Compartment, Travel Duffel Bag Backpack,
+                            Weekend Bag Carry On Backpack for Gym, Travel, Fitness, Workout (Black, 42L)</p>
+                        <p class="price">$11.94</p>
+                        <a href="https://amzn.to/4bOcHaQ" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Sport&Fitness/sunnyhealh.png" alt="Resistance Bands">
+                    <div class="product-info">
+                        <h3>Sunny Health & Fitness Mini Stepper for Exercise at Home</h3>
+                        <p>Stair Step Workout Machine with Resistance Band, Fullbody Cardio, Upgraded Over 300lb Weight
+                            Capacity, Optional Free SunnyFit App Connection</p>
+                        <p class="price">$38.49</p>
+                        <a href="https://amzn.to/4bNYU3V" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Sport&Fitness/roller.png" alt="VINSGUIR Ab Roller Wheel">
+                    <div class="product-info">
+                        <h3>VINSGUIR Ab Roller Wheel</h3>
+                        <p>Abs & Core Workout Equipment for Home Gym with Knee Pad Accessories, Abdominal Wheel for
+                            Full-body Strength Training</p>
+                        <p class="price">$22.25</p>
+                        <a href="https://amzn.to/4kxULFr" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Sport&Fitness/home gym.png" alt="Compact Design, Home Gym">
+                    <div class="product-info">
+                        <h3>Compact Design, Home Gym</h3>
+                        <p>Versitiale Exercises, Workout Equipment, Fitness Equipment</p>
+                        <p class="price"><br>$509.75</p>
+                        <a href="https://amzn.to/4igrsFJ" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Sport&Fitness/pushup.png" alt="Push Up Board">
+                    <div class="product-info">
+                        <h3>Push Up Board,Home Gym</h3>
+                        <p>Portable Exercise Equipment,Pilates Bar and 20 Fitness Accessories with Resistance Bands and
+                            Ab Roller Wheel,Full Body Workout at Home
+                        </p>
+                        <p class="price">$38.99</p>
+                        <a href="https://amzn.to/4iaH6Ct" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination-info" id="sports-pagination-info"></div>
+            <div class="pagination-container" id="sports-pagination"></div>
+        </section>
+
+        <section id="toys" class="category-section">
+            <h2 class="category-title">Toys & Games</h2>
+            <div class="products-grid">
+                <div class="product">
+                    <img src="Images/Toys and games/car race.png" alt="Educational Toy">
+                    <div class="product-info">
+                        <h3>Wupuaait Slot Car Race Track Sets with 4 High-Speed Slot Cars</h3>
+                        <p>Battery or Electric Car Track, Dual Racing Game Lap Counter Circular Overpass Track, Gifts...
+                        </p>
+                        <p class="price">$48.33</p>
+                        <a href="https://amzn.to/4hELOaJ" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Toys and games/basketball.png" alt="Board Game">
+                    <div class="product-info">
+                        <h3>JOYIN Arcade Basketball Game Set</h3>
+                        <p>with 4 Balls and Hoop for Kids 3 to 12 Years Old Indoor Outdoor Sport Play - Easy Set Up -
+                            Air Pump Included - Ideal for...</p>
+                        <p class="price">$39.99</p>
+                        <a href="https://amzn.to/4iz486p" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination-info" id="toys-pagination-info"></div>
+            <div class="pagination-container" id="toys-pagination"></div>
+        </section>
+
+        <section id="pets" class="category-section">
+            <h2 class="category-title">Pet Supplies</h2>
+            <div class="products-grid">
+                <div class="product">
+                    <img src="Images/Pet supplies/dog bed.png" alt="Pet Care">
+                    <div class="product-info">
+                        <h3>Bedsure Orthopedic Dog Bed for Medium Dogs</h3>
+                        <p>Waterproof Dog Sofa Beds Medium, Supportive Foam Pet Couch Bed with Removable Washable Cover,
+                            Waterproof Lining...</p>
+                        <p class="price">$45.99</p>
+                        <a href="https://amzn.to/4bXSijL" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Pet supplies/iris.png" alt="Pet Bed">
+                    <div class="product-info">
+                        <h3>IRIS USA 24" Exercise 4-Panel Pet Playpen with Door</h3>
+                        <p> Dog Playpen, Puppy Playpen, for Puppies and Small Dogs, Keep Pets Secure, Easy Assemble,
+                            Fold It Down, Easy Storing, Customizable, White</p>
+                        <p class="price">$29.99</p>
+                        <a href="https://amzn.to/4bOfVes" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination-info" id="pets-pagination-info"></div>
+            <div class="pagination-container" id="pets-pagination"></div>
+        </section>
+
+        <section id="books" class="category-section">
+            <h2 class="category-title">Books & Digital</h2>
+            <div class="products-grid">
+                <div class="product">
+                    <img src="Images/Books and digital/princiton.png" alt="E-Reader">
+                    <div class="product-info">
+                        <h3>Princeton Review Digital SAT Premium Prep, 2025</h3>
+                        <p>5 Full-Length Practice Tests (2 in Book + 3 Adaptive Tests Online) + Online Flashcards +
+                            Review & Tools (2025) (College Test Preparation)</p>
+                        <p class="price">$22.16</p>
+                        <a href="https://amzn.to/4iFIJYF" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Books and digital/drawingdigital.png" alt="Audiobook Set">
+                    <div class="product-info">
+                        <h3>Drawing Digital</h3>
+                        <p>The complete guide for learning to draw & paint on your iPad </p>
+                        <p class="price">$15.81</p>
+                        <a href="https://amzn.to/41INudd" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination-info" id="books-pagination-info"></div>
+            <div class="pagination-container" id="books-pagination"></div>
+        </section>
+
+        <section id="automotive" class="category-section">
+            <h2 class="category-title">Automotive</h2>
+            <div class="products-grid">
+                <div class="product">
+                    <img src="Images/Automotive/carlcd.png" alt="Car Gadget">
+                    <div class="product-info">
+                        <h3>Wireless Apple Carplay Screen for Car 4K Dash Cam</h3>
+                        <p>9" Portable Apple Carplay & Android Auto Car Stereo, with 1080p Backup Camera, GPS
+                            Navigation/Mirror Link/Voice Control/Bluetooth</p>
+                        <p class="price">$59.99</p>
+                        <a href="https://amzn.to/420AYGf" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Automotive/carcover.png" alt="Car Care">
+                    <div class="product-info">
+                        <h3>for 2002-2023 Mini Cooper/Cooper S Car Cover</h3>
+                        <p>210D Outdoor Waterproof UV Protection, with Cotton Layer, Zipper Door, Reflective Strip,
+                            Storage Bag, for Cooper 2-Door</p>
+                        <p class="price">$49.59</p>
+                        <a href="https://amzn.to/4hr5YVn" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination-info" id="automotive-pagination-info"></div>
+            <div class="pagination-container" id="automotive-pagination"></div>
+        </section>
+
+        <section id="garden" class="category-section">
+            <h2 class="category-title">Garden & Tools</h2>
+            <div class="products-grid">
+                <div class="product">
+                    <img src="Images/Tools&garden/trimmer.png" alt="Garden Tool">
+                    <div class="product-info">
+                        <h3>Hedge Trimmer Cordless with Battery and Charger</h3>
+                        <p>2-in-1 18 V Electric Handheld Bush Shrub Grass Trimmer, Small Lightweight Garden Tools Kit, 2
+                            Batteries, 3.0 Ah</p>
+                        <p class="price">$29.99</p>
+                        <a href="https://amzn.to/4imQUJQ" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/Tools&garden/gardening toolset.png" alt="Tool Set">
+                    <div class="product-info">
+                        <h3>Gardening Tools Set of 10 - Complete Heavy Duty Garden Tools Set with Fashion Handbag</h3>
+                        <p>Durable Gardening Supplies Kit Ideal Gardening Gifts for Women</p>
+                        <p class="price">$36.99</p>
+                        <a href="https://amzn.to/420CIiL" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination-info" id="garden-pagination-info"></div>
+            <div class="pagination-container" id="garden-pagination"></div>
+        </section>
+
+        <section id="fashion" class="category-section">
+            <h2 class="category-title">Fashion</h2>
+            <div class="products-grid">
+                <div class="product">
+                    <img src="Images/fashion/sneaker.png" alt="Casual Sneakers">
+                    <div class="product-info">
+                        <h3>Dr. Scholl's Women's Time Off Sneaker</h3>
+                        <p>Comfortable everyday wear</p>
+                        <p class="price">$64.99</p>
+                        <a href="https://amzn.to/4hmFWTc" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/fashion/tshirt.png" alt="Designer Watch">
+                    <div class="product-info">
+                        <h3>Trendy Queen Womens Oversized Summer T Shirts</h3>
+                        <p>Elegant timepiece for any occasion</p>
+                        <p class="price">$8.49</p>
+                        <a href="https://amzn.to/4hr7HtP" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/fashion/outfit" alt="Designer Watch">
+                    <div class="product-info">
+                        <h3>FZNHQL Fashion Men's Tracksuits</h3>
+                        <p>2 Piece Casual Athletic Jogging Outfits Short/Long Sleeve Track Suits for Men Set</p>
+                        <p class="price">$14.49</p>
+                        <a href="https://amzn.to/4kFbB58" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/fashion/tracksout.jpg" alt="Designer Watch">
+                    <div class="product-info">
+                        <h3>TBMPOY Men's Tracksuits</h3>
+                        <p>Sweatsuits for Men Sweat Track Suits 2 Piece Casual Athletic Jogging Warm Up Full Zip Sets
+                        </p>
+                        <p class="price">$39.99</p>
+                        <a href="https://amzn.to/4ilbmL4" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/fashion/belt.jpg" alt="Designer Watch">
+                    <div class="product-info">
+                        <h3>CHAOREN Mens Dress Belt Leather 2 Pack </h3>
+                        <p>Mens Ratchet Belt for Dress Shirt and Pants Every Occasion (32mm)</p>
+                        <p class="price">$36.99</p>
+                        <a href="https://amzn.to/4bHYAUq" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/fashion/menssoot.jpg" alt="Designer Watch">
+                    <div class="product-info">
+                        <h3>LecGee Men's Hawaiian Shirt Set</h3>
+                        <p>Tropical Print Striped Button Down Hawaiian Shirt and Shorts 2 Piece Outfits</p>
+                        <p class="price">$14.49</p>
+                        <a href="https://amzn.to/4hrTQDJ" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/fashion/wulful.jpg" alt="Designer Watch">
+                    <div class="product-info">
+                        <h3>WULFUL Men's Slim Fit Suit One</h3>
+                        <p>Button 3-Piece Blazer Dress Business Wedding Party Jacket Vest & Pant</p>
+                        <p class="price">$72.59</p>
+                        <a href="https://amzn.to/4iiUMLN" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/fashion/womenshort.jpg" alt="Designer Watch">
+                    <div class="product-info">
+                        <h3>Women's 2 Piece Lounge Sets</h3>
+                        <p>Short Sleeve Drop Shoulder Top and Drawstring Shorts Outfits Sweatsuit</p>
+                        <p class="price">$17.49</p>
+                        <a href="https://amzn.to/4is0nzp" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination-info" id="fashion-pagination-info"></div>
+            <div class="pagination-container" id="fashion-pagination"></div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 ShophoriaX. All rights reserved.</p>
+            <div class="footer-seo-text">
+                <p>ShophoriaX is your premier online shopping destination for exclusive deals on fashion, electronics, beauty products, home essentials, and more. We offer a wide selection of high-quality products from top brands at competitive prices. Whether you're shopping for the latest tech gadgets, trendy clothing, home decor, or fitness equipment, ShophoriaX delivers exceptional value and a seamless shopping experience.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="node.js"></script>
+</body>
+
+</html>
